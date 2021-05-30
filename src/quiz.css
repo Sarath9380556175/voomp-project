@@ -1,0 +1,11 @@
+.quiz{
+    background-color:darkblue;
+    
+    height: 40px;
+}
+
+.time{
+    background-color:orangered;
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+}
