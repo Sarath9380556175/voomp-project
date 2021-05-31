@@ -79,7 +79,10 @@ hemanth=(answer)=>{
             <div>
                            
                            
-        <div style={{float:'right',marginRight:'40px',color:'white'}} className="time">{time}</div>
+       <div style={{float:'right',color:'white',marginRight:'40px',marginTop:'7px'}} className="time">{time}</div>
+ 
+                <span style={{float:'right',marginRight:'5px',color:'white',marginTop:'3px',fontSize:'25px'}}>&#9200;</span>
+            
         <Bounce top cascade><div className="mt-3 pl-3">7. {questions[6]}</div></Bounce>
             
             <input type="radio" name="hemanth" className="mt-3 ml-3"  onChange={()=>this.hemanth(wronganswers7[2])}/>&nbsp;&nbsp;<Zoom bottom cascade><span>{wronganswers7[2]}</span></Zoom><br/>
