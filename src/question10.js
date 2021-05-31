@@ -81,7 +81,9 @@ pavan=(answer)=>{
         return(
             <div>
         
-         <div style={{float:'right',marginRight:'40px',color:'white'}} className="time">{time}</div>
+        <div style={{float:'right',color:'white',marginRight:'40px',marginTop:'7px'}} className="time">{time}</div>
+ 
+                <span style={{float:'right',marginRight:'5px',color:'white',marginTop:'3px',fontSize:'25px'}}>&#9200;</span>
 
  
          <Bounce top cascade><div className="mt-3 pl-3">10. {questions[9]}</div></Bounce>
