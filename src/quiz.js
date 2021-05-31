@@ -84,7 +84,9 @@ skr=(answer)=>{
         return(
             <div>
           <ol>
-             <div style={{float:'right',marginRight:'40px',color:'white'}} className="time">{time}</div>
+            <div style={{float:'right',color:'white',marginRight:'40px',marginTop:'7px'}} className="time">{time}</div>
+ 
+                <span style={{float:'right',marginRight:'5px',color:'white',marginTop:'3px',fontSize:'25px'}}>&#9200;</span>
                    <Bounce top cascade><li className="mt-3">{questions[0]}</li></Bounce>
                    
                        <input type="radio" name="quiz" className="mt-3" onChange={()=>this.skr(wronganswers1[0])} required/>&nbsp;&nbsp; <Zoom bottom cascade><span>{wronganswers1[0]}</span></Zoom><br/>
